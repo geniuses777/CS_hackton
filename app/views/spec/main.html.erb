@@ -1,0 +1,62 @@
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Hi+Melody" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Gamja+Flower" rel="stylesheet">
+    <style>
+        .wrapper{
+            width:100%;
+            background-color:white;
+            height:38.1em;
+        }
+        .wrapper>.real{
+            background-image: url("/assets/library1.jpg");
+            width:70%;
+            height:100%;
+            background-color:#ffab91;
+            float:left;
+            color: white;
+        }
+        .wrapper>.hide{
+            width:30%;
+            height:100%;
+            background-color:#424242;
+            float:left;
+        }
+        .wrapper>.hide>a>.btn{
+            float:right;
+            margin:33em 2em 2em 2em;
+        }
+        .wrapper>.real{
+            padding:8em;
+        }
+        .wrapper>.real>.container>h2{
+            font-family: 'Hi Melody', cursive;
+            font-size: 3em;
+        }
+        .wrapper>.real>.container>p{
+            font-family: 'Gamja Flower', cursive;
+            font-size:1.6em;
+        }
+        .wrapper>.real>.container{
+            background-color:black;
+            padding:2em;
+            background-color: rgba( 0, 0, 0, 0.5 );
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="real">
+            <div class="container">
+                <h2>대학생활 능력지표</h2>
+                <br>
+                <p><a style="font-size:1.8em; font-weight:bold">왜</a><br>대학 생활 능력을 알아야 하는가?</p>
+                <br><br><br>
+                <a href="/spec/problem1"><button type="button" class="btn btn-success">시작하기</button></a>
+            </div>
+        </div>
+        <div class="hide">
+            <a href="/homeworks/main"><button type="button" class="btn btn-info">과제관리 하러가기</button></a>
+        </div>
+    </div>
+</body>
